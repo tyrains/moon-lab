@@ -1,16 +1,52 @@
-# React + Vite
+# Moon Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+这是一个用于学习现代 Web 开发流程的实验项目。
 
-Currently, two official plugins are available:
+## 项目简介
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+本项目使用 React + Vite 创建，用于学习和实践现代前端开发的基本工作流程。
 
-## React Compiler
+目前已经完成：
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Node.js 环境搭建
+- npm 包管理
+- React 项目创建
+- Vite 开发与构建
+- `npm run dev` 开发模式
+- `npm run build` 生产构建
+- `npm run preview` 构建结果预览
+- Git 版本管理
+- GitHub 远程仓库
+- SSH Key 身份认证
+- Git 推送到 GitHub
 
-## Expanding the Oxlint configuration
+## 技术栈
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- Node.js
+- npm
+- Git
+- GitHub
+
+## 常用命令
+
+```bash
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览生产构建结果
+npm run preview
+
+# 查看 Git 状态
+git status
+
+# 提交修改
+git add .
+git commit -m "说明"
+
+# 推送到 GitHub
+git push
